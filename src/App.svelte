@@ -211,6 +211,9 @@
 </footer>
 
 <style>
+  h1 {
+    font-size: 2rem;
+  }
   label {
     font: 1rem "Fira Sans", sans-serif;
     display: inline;
@@ -229,6 +232,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 1rem;
   }
 
   footer > div {
@@ -240,7 +244,7 @@
   }
 
   footer > div > input {
-    width: 60vw;
+    width: 65vw;
     margin: 0;
     box-sizing: border-box;
     height: 2rem;
@@ -263,5 +267,13 @@
   .strikethrough {
     text-decoration: line-through;
     color: gray;
+  }
+
+  button {
+    color: white;
+    background-color: #00b2ff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
   }
 </style>
